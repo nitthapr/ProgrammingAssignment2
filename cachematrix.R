@@ -10,7 +10,7 @@
 # getinverse: the value of the inverse of the Matrix
 
 makeCacheMatrix <- function(x = matrix()) {
-        ## decale i store inverse matrix, default velue is NULL
+        ## declare i store inverse matrix, default velue is NULL
         i <- NULL
         set <- function (y){
                 x <<- y
